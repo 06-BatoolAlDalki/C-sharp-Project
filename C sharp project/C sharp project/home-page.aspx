@@ -27,7 +27,18 @@
         <div>
         </div>
     </form>
-
+    <div class="home-box">
+        <div class="project-name"> <span>Gateway <span style="color: #126266">Information</span> </span> </div>
+        <img  src="home-images\Forms-bro.png" width="40%" height="200px"/>
+        <div class="about-us">
+            <div class="breif-statement"> Brief about survey<br /></div>
+            <div class="breif-paragraph"> <span> we do a simple survey, to measure degree of hapiness to our employee's.<br />
+                It  consists about 10 easy Questions.
+                                          </span></div>   
+            
+            
+        </div>
+    </div>
 
    
        <div class="footer">

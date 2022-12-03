@@ -12,18 +12,19 @@
     <title></title>
 </head>
 <body>
-     <nav class="navbar bg-light">
+    <nav class="navbar bg-light">
   <div class="container-fluid">
-      <img src="home-images\logo.PNG"  width="5%" height="" style="margin-left:10px" alt="no image"/>
-    <a class="navbar-brand " style="margin-right:60% ;color:#D9686C ; font-weight:bold" >PEGASUS</a>
+      <img src="home-images\logo1.PNG"  width="70px" height="" style=" position:absolute; left :10px ; top:5px" alt="no image" />
+    <a class="navbar-brand " style="margin-left:7% ; color:#126266 ;"  >PEGASUS</a>
     <form class="d-flex" role="search" >
       <button class="btn btn-outline-success nav-bar" type="submit">Home</button>
         <button class="btn btn-outline-success nav-bar" type="submit">Sign in</button>
-          </form>
+       <%-- <div class ="batool">batool walid</div>  --%>
+    </form>
   </div>
 </nav>
     <div class="contain"> 
-        <div class="login-image" > <img src="login-images\login-page.PNG"   /></div>
+      
         <div class="container-login">
            
              <form id="form1" runat="server">
@@ -31,9 +32,18 @@
        
     </form>
         </div>
-
+          <div class="login-image" > <img src="login-images\loginimage.PNG"   /></div>
     </div>
    
    
+
+
+
+     <div class="footer">
+           <div style="display:inline-block;"> <img src="home-images\logo1.PNG"  width="15%" height="" style=" position:relative; left :10px ; "/></div>
+           <div style="float:right; font-size:30px; margin-left:5px; margin-right:33px;" ><i class="fa-brands fa-facebook fontawsome"></i>
+               <i class="fa-brands fa-github fontawsome"></i><i class="fa-solid fa-envelope fontawsome" style="margin-left:10px;"></i>
+           </div>
+       </div>
 </body>
 </html>
