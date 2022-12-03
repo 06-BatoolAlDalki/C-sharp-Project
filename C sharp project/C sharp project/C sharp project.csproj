@@ -70,11 +70,14 @@
     <Content Include="admin-page.aspx" />
     <Content Include="admin-page.css" />
     <Content Include="Global.asax" />
+    <Content Include="home-images\Admin-bro.png" />
     <Content Include="home-images\Forms-bro.png" />
     <Content Include="homepag1.css" />
     <Content Include="loginpage.aspx" />
     <Content Include="loginpage.css" />
     <Content Include="question-page.aspx" />
+    <Content Include="question-page.css" />
+    <Content Include="TextFile1.txt" />
     <Content Include="Web.config" />
     <Content Include="home-page.aspx" />
   </ItemGroup>

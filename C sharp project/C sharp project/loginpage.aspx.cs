@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -13,6 +14,26 @@ namespace C_sharp_project
         {
 
         }
+        //public void CreationOfTextFile(string filename, string message)
+        //{
+        //    if (!Directory.Exists(Server.MapPath("\\TextFile")))
+        //    {
+        //        Directory.CreateDirectory(Server.MapPath("\\TextFile"));
+        //    }
+        //    string txtFilename = filename + ".txt";
+        //    string txtFilePath = @"\TextFile\" + txtFilename;
+        //    //Validate log file exist or not
+        //    if (!File.Exists(Server.MapPath(txtFilePath)))
+        //    {
+        //        File.Create(Server.MapPath(txtFilePath));
+        //    }
+        //    message = DateTime.Now.ToString() + " : " + message;
+        //    StreamWriter file = new StreamWriter(Server.MapPath(txtFilePath), true);
+        //    file.Write(message + "\r\n");
+
+        //    file.Close();
+        //}
+
 
         protected void Button1_Click(object sender, EventArgs e)
         {
@@ -29,8 +50,15 @@ namespace C_sharp_project
             {
 
                 if ((id[i]==  TextBox1.Text) && (pass[i]== TextBox2.Text)) {
+                    //string message = txtFileContent.Text;
+                    //string filename = TextBox1.Text;
+                    //CreationOfTextFile(filename, TextBox2.Text);
+                    //lblmessage.Text = "File Created successfully"
+                    //
+                    //;
+                    Response.Redirect("question-page.aspx?ID=" + TextBox1.Text);
+                    //Response.Redirect("question-page.aspx?ID=" + TextBox1.Text);
 
-                    Response.Redirect("question-page.aspx");
                 }
                 else if((id[i] == "") && (pass[i] == ""))
                 {
@@ -47,13 +75,13 @@ namespace C_sharp_project
                     Response.Redirect("admin-page.aspx");
                 }
             }
-        
-      
+
+           
+
         }
-   
-    
-    
-    
+
+        
+
     }
 
 }
