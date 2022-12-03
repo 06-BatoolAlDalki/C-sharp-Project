@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin-page.aspx" />
+    <Content Include="admin-page.css" />
     <Content Include="Global.asax" />
     <Content Include="home-images\Forms-bro.png" />
     <Content Include="homepag1.css" />
@@ -77,6 +79,13 @@
     <Content Include="home-page.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin-page.aspx.cs">
+      <DependentUpon>admin-page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin-page.aspx.designer.cs">
+      <DependentUpon>admin-page.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
