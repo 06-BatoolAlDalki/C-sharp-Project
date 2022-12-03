@@ -23,27 +23,43 @@
     </form>
   </div>
 </nav>
+     <%-- <h4 style=" margin-top:2%;margin-left:22% ; font-weight:bold; color:#126266;">Login</h4>--%>
     <div class="contain"> 
-      
+        
         <div class="container-login">
-           
+         
              <form id="form1" runat="server">
-       <div class="username"> </div>
+      <%-- <div class="username" > --%>
+                <%-- </div>--%>
        
-    </form>
+               <h4 style=" position:absolute;top:2%;left:37% ; font-weight:bold; color:#126266;">Login</h4>
+<asp:Label ID="Label1" runat="server" Text="ID" style="position:absolute; top:20%; left:12% ; font-weight:bold; color:#126266;" ></asp:Label>
+                 <asp:TextBox ID="TextBox1" runat="server" class="username" placeholder="enter your id"></asp:TextBox>
+
+                 <asp:Label ID="Label2" runat="server" Text="Password" style="position:absolute; top:48%; left:12% ; font-weight:bold; color:#126266;" ></asp:Label>
+                 <asp:TextBox ID="TextBox2" runat="server" class="username1" placeholder="enter your password" type="password"></asp:TextBox>
+  
+                 <asp:Button ID="Button1" runat="server" Text="Login"  style="position:absolute;background-color:#126266; color:white; left:40% ; top :85% ;border-radius:12px; border: solid #126266 2px; " OnClick="Button1_Click"/>
+             
+                 <asp:Label ID="Label3" runat="server" Text="Label"  style="position:absolute ; left:24% ; bottom:20%; color:red; font-size:small; " Visible="False"></asp:Label>
+
+             </form>
+            
         </div>
-          <div class="login-image" > <img src="login-images\loginimage.PNG"   /></div>
+          <div class="login-image" > <img src="login-images\loginimage.PNG" style="color: #FF0000"   /></div>
+       
     </div>
    
    
 
 
-
+  
      <div class="footer">
            <div style="display:inline-block;"> <img src="home-images\logo1.PNG"  width="15%" height="" style=" position:relative; left :10px ; "/></div>
            <div style="float:right; font-size:30px; margin-left:5px; margin-right:33px;" ><i class="fa-brands fa-facebook fontawsome"></i>
                <i class="fa-brands fa-github fontawsome"></i><i class="fa-solid fa-envelope fontawsome" style="margin-left:10px;"></i>
            </div>
        </div>
+     
 </body>
 </html>

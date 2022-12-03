@@ -72,6 +72,7 @@
     <Content Include="homepag1.css" />
     <Content Include="loginpage.aspx" />
     <Content Include="loginpage.css" />
+    <Content Include="question-page.aspx" />
     <Content Include="Web.config" />
     <Content Include="home-page.aspx" />
   </ItemGroup>
@@ -93,6 +94,13 @@
     </Compile>
     <Compile Include="home-page.aspx.designer.cs">
       <DependentUpon>home-page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="question-page.aspx.cs">
+      <DependentUpon>question-page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="question-page.aspx.designer.cs">
+      <DependentUpon>question-page.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
