@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="addQuestionscss.css" />
     <Content Include="admin-page.aspx" />
     <Content Include="admin-page.css" />
     <Content Include="Global.asax" />
@@ -80,6 +81,7 @@
     <Content Include="TextFile1.txt" />
     <Content Include="Web.config" />
     <Content Include="home-page.aspx" />
+    <Content Include="addQuestions.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="admin-page.aspx.cs">
@@ -113,6 +115,13 @@
     </Compile>
     <Compile Include="question-page.aspx.designer.cs">
       <DependentUpon>question-page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addQuestions.aspx.cs">
+      <DependentUpon>addQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addQuestions.aspx.designer.cs">
+      <DependentUpon>addQuestions.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
