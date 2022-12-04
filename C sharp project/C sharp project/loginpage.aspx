@@ -26,10 +26,35 @@
         <div class="login-image" > <img src="login-images\login-page.PNG"   /></div>
         <div class="container-login">
            
-             <form id="form1" runat="server">
+             <form id="form1" runat="server" title="kk">
        <div class="username"> </div>
        
-    </form>
+
+              <asp:RadioButtonList ID="rblTest" runat="server">
+
+ 
+
+<asp:ListItem Text="This is a test1" Value="1"></asp:ListItem>
+
+ 
+
+<asp:ListItem Text="This is a test2" Value="2" Selected="True"></asp:ListItem>
+
+ 
+
+<asp:ListItem Text="This is a test3" Value="3"></asp:ListItem>
+
+ 
+
+</asp:RadioButtonList>
+                 <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+
+                 <input id="Radio1" name="mm"  value="7" type="radio" title="kk" />
+                 <label for="Radio1">moath</label>
+                 <input id="Radio2" name="mm" value="8" type="radio" />
+                 <input id="Radio3" name="mm"  value="9" type="radio" />
+
+             </form>
         </div>
 
     </div>

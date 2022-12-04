@@ -13,5 +13,13 @@ namespace C_sharp_project
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Write(rblTest.SelectedValue);
+            string mm = Request.Form["mm"];
+            Response.Write(mm);
+
+        }
     }
 }
