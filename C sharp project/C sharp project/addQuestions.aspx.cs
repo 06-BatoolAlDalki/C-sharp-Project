@@ -27,8 +27,18 @@ namespace C_sharp_project
                 }
             }
           Response.Write(countTB.ToString());
+            for(int i = 1; i <= 10; i++)
+            {
+                string[] moath= new string[countTB];
+                moath[i-1]= (TextBox)(TextBox[i]).Text;
+            }
 
             
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

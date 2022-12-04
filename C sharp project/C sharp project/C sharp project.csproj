@@ -74,7 +74,6 @@
     <Content Include="home-images\Admin-bro.png" />
     <Content Include="home-images\Forms-bro.png" />
     <Content Include="homepag1.css" />
-    <Content Include="loginpage.aspx" />
     <Content Include="loginpage.css" />
     <Content Include="question-page.aspx" />
     <Content Include="question-page.css" />
@@ -93,13 +92,6 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="loginpage.aspx.cs">
-      <DependentUpon>loginpage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="loginpage.aspx.designer.cs">
-      <DependentUpon>loginpage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="home-page.aspx.cs">
