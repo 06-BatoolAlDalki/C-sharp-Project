@@ -20,7 +20,7 @@
     <form class="d-flex" role="search" >
       <button class="btn btn-outline-success nav-bar" type="submit"><a href ="home-page.aspx"style="text-decoration:none;color: #126266;"  >Home</a></button>
         <button class="btn btn-outline-success nav-bar" type="submit"><a href ="home-page.aspx" style="text-decoration:none;color: #126266;" >Logout</a></button>
-       <%-- <div class ="batool">batool walid</div>  --%>
+      <%--   <div class ="batool">batool walid</div>  --%>
     </form>
   </div>
 </nav>
@@ -49,17 +49,23 @@
                      <asp:Label ID="Label4" runat="server" Text="Label">Question</asp:Label>
                     </div>
                   <div class="button-style">
-                    <asp:Button ID="Button1" runat="server" Text="Poor" OnClick="Button1_Click" />
+                     <%-- <asp:Button ID="Button1" runat="server" Text="Poor" OnClick="Button1_Click" />
                       <asp:Button ID="Button2" runat="server" Text="Good" OnClick="Button2_Click1" />
                       <asp:Button ID="Button3" runat="server" Text="Very Good" OnClick="Button3_Click" />
-                      <asp:Button ID="Button4" runat="server" Text="Excellent" OnClick="Button4_Click" />
-             
-                         
+                      <asp:Button ID="Button4" runat="server" Text="Excellent" OnClick="Button4_Click" />--%>
+                        <asp:RadioButton ID="RadioButton1" runat="server" Text="Poor" GroupName="Q1" OnCheckedChanged="RadioButton1_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton2" runat="server" Text="Good" GroupName="Q1" OnCheckedChanged="RadioButton2_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton3" runat="server" Text="Very Good"  GroupName="Q1" OnCheckedChanged="RadioButton3_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton4" runat="server" Text="Excellent"  GroupName="Q1" OnCheckedChanged="RadioButton4_CheckedChanged"/>
+                     
+                        <div style="height: 22px">  
+            
+        </div>  
+                        
                 </div>
                 </div>
 
-       <%--   question2--%>
-
+<%--        question2--%>
            <div class="question-box">
                 <div class="question-text-style">
                 <asp:Label ID="Label5" runat="server" Text="Label">Question2</asp:Label>
@@ -68,18 +74,18 @@
                      <asp:Label ID="Label6" runat="server" Text="Label">Question</asp:Label>
                     </div>
                   <div class="button-style">
-                    <asp:Button ID="Button5" runat="server" Text="Poor" OnClick="Button5_Click" />
-                      <asp:Button ID="Button6" runat="server" Text="Good" />
-                      <asp:Button ID="Button7" runat="server" Text="Very Good" />
-                      <asp:Button ID="Button8" runat="server" Text="Excellent" />
+                   <asp:RadioButton ID="RadioButton5" runat="server" Text="Poor" GroupName="Q2" OnCheckedChanged="RadioButton5_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton6" runat="server" Text="Good" GroupName="Q2" OnCheckedChanged="RadioButton6_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton7" runat="server" Text="Very Good"  GroupName="Q2" OnCheckedChanged="RadioButton7_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton8" runat="server" Text="Excellent"  GroupName="Q2" OnCheckedChanged="RadioButton8_CheckedChanged"/>
              
                          
                 </div>
                 </div>
+          
 
 
-
-        <%--  question3--%>
+      <%--  question3--%>
            <div class="question-box">
                 <div class="question-text-style">
                 <asp:Label ID="Label7" runat="server" Text="Label">Question3</asp:Label>
@@ -88,10 +94,10 @@
                      <asp:Label ID="Label8" runat="server" Text="Label">Question</asp:Label>
                     </div>
                   <div class="button-style">
-                    <asp:Button ID="Button9" runat="server" Text="Poor" />
-                      <asp:Button ID="Button10" runat="server" Text="Good" />
-                      <asp:Button ID="Button11" runat="server" Text="Very Good" />
-                      <asp:Button ID="Button12" runat="server" Text="Excellent" />
+                    <asp:RadioButton ID="RadioButton9" runat="server" Text="Poor" GroupName="Q3" OnCheckedChanged="RadioButton9_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton10" runat="server" Text="Good" GroupName="Q3" OnCheckedChanged="RadioButton10_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton11" runat="server" Text="Very Good"  GroupName="Q3" OnCheckedChanged="RadioButton11_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton12" runat="server" Text="Excellent"  GroupName="Q3" OnCheckedChanged="RadioButton12_CheckedChanged"/>
              
                          
                 </div>
@@ -106,10 +112,10 @@
                      <asp:Label ID="Label10" runat="server" Text="Label">Question</asp:Label>
                     </div>
                   <div class="button-style">
-                    <asp:Button ID="Button13" runat="server" Text="Poor" />
-                      <asp:Button ID="Button14" runat="server" Text="Good" />
-                      <asp:Button ID="Button15" runat="server" Text="Very Good" />
-                      <asp:Button ID="Button16" runat="server" Text="Excellent" />
+                    <asp:RadioButton ID="RadioButton13" runat="server" Text="Poor" GroupName="Q4" OnCheckedChanged="RadioButton13_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton14" runat="server" Text="Good" GroupName="Q4" OnCheckedChanged="RadioButton14_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton15" runat="server" Text="Very Good"  GroupName="Q4" OnCheckedChanged="RadioButton15_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton16" runat="server" Text="Excellent"  GroupName="Q4" OnCheckedChanged="RadioButton16_CheckedChanged"/>
              
                          
                 </div>
@@ -124,10 +130,10 @@
                      <asp:Label ID="Label12" runat="server" Text="Label">Question</asp:Label>
                     </div>
                   <div class="button-style">
-                    <asp:Button ID="Button17" runat="server" Text="Poor" />
-                      <asp:Button ID="Button18" runat="server" Text="Good" />
-                      <asp:Button ID="Button19" runat="server" Text="Very Good" />
-                      <asp:Button ID="Button20" runat="server" Text="Excellent" />
+                   <asp:RadioButton ID="RadioButton17" runat="server" Text="Poor" GroupName="Q5" OnCheckedChanged="RadioButton17_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton18" runat="server" Text="Good" GroupName="Q5" OnCheckedChanged="RadioButton18_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton19" runat="server" Text="Very Good"  GroupName="Q5" OnCheckedChanged="RadioButton19_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton20" runat="server" Text="Excellent"  GroupName="Q5" OnCheckedChanged="RadioButton20_CheckedChanged"/>
              
                          
                 </div>
@@ -142,10 +148,10 @@
                      <asp:Label ID="Label14" runat="server" Text="Label">Question</asp:Label>
                     </div>
                   <div class="button-style">
-                    <asp:Button ID="Button21" runat="server" Text="Poor" />
-                      <asp:Button ID="Button22" runat="server" Text="Good" />
-                      <asp:Button ID="Button23" runat="server" Text="Very Good" />
-                      <asp:Button ID="Button24" runat="server" Text="Excellent" />
+                   <asp:RadioButton ID="RadioButton21" runat="server" Text="Poor" GroupName="Q6" OnCheckedChanged="RadioButton21_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton22" runat="server" Text="Good" GroupName="Q6" OnCheckedChanged="RadioButton22_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton23" runat="server" Text="Very Good"  GroupName="Q6" OnCheckedChanged="RadioButton23_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton24" runat="server" Text="Excellent"  GroupName="Q6" OnCheckedChanged="RadioButton24_CheckedChanged"/>
              
                          
                 </div>
@@ -160,10 +166,10 @@
                      <asp:Label ID="Label16" runat="server" Text="Label">Question</asp:Label>
                     </div>
                   <div class="button-style">
-                    <asp:Button ID="Button25" runat="server" Text="Poor" />
-                      <asp:Button ID="Button26" runat="server" Text="Good" />
-                      <asp:Button ID="Button27" runat="server" Text="Very Good" />
-                      <asp:Button ID="Button28" runat="server" Text="Excellent" />
+                   <asp:RadioButton ID="RadioButton25" runat="server" Text="Poor" GroupName="Q7" OnCheckedChanged="RadioButton25_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton26" runat="server" Text="Good" GroupName="Q7" OnCheckedChanged="RadioButton26_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton27" runat="server" Text="Very Good"  GroupName="Q7" OnCheckedChanged="RadioButton27_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton28" runat="server" Text="Excellent"  GroupName="Q7" OnCheckedChanged="RadioButton28_CheckedChanged"/>
              
                          
                 </div>
@@ -178,16 +184,16 @@
                      <asp:Label ID="Label18" runat="server" Text="Label">Question</asp:Label>
                     </div>
                   <div class="button-style">
-                    <asp:Button ID="Button29" runat="server" Text="Poor" />
-                      <asp:Button ID="Button30" runat="server" Text="Good" />
-                      <asp:Button ID="Button31" runat="server" Text="Very Good" />
-                      <asp:Button ID="Button32" runat="server" Text="Excellent" />
+                   <asp:RadioButton ID="RadioButton29" runat="server" Text="Poor" GroupName="Q8" OnCheckedChanged="RadioButton29_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton30" runat="server" Text="Good" GroupName="Q8" OnCheckedChanged="RadioButton30_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton31" runat="server" Text="Very Good"  GroupName="Q8" OnCheckedChanged="RadioButton31_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton32" runat="server" Text="Excellent"  GroupName="Q8" OnCheckedChanged="RadioButton32_CheckedChanged"/>
              
                          
                 </div>
                 </div>
 
-            <%-- question9--%>
+          <%--  <%-- question9--%>
            <div class="question-box">
                 <div class="question-text-style">
                 <asp:Label ID="Label19" runat="server" Text="Label">Question9</asp:Label>
@@ -196,16 +202,16 @@
                      <asp:Label ID="Label20" runat="server" Text="Label">Question</asp:Label>
                     </div>
                   <div class="button-style">
-                    <asp:Button ID="Button33" runat="server" Text="Poor" />
-                      <asp:Button ID="Button34" runat="server" Text="Good" />
-                      <asp:Button ID="Button35" runat="server" Text="Very Good" />
-                      <asp:Button ID="Button36" runat="server" Text="Excellent" />
+                    <asp:RadioButton ID="RadioButton33" runat="server" Text="Poor" GroupName="Q9" OnCheckedChanged="RadioButton33_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton34" runat="server" Text="Good" GroupName="Q9" OnCheckedChanged="RadioButton34_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton35" runat="server" Text="Very Good"  GroupName="Q9" OnCheckedChanged="RadioButton35_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton36" runat="server" Text="Excellent"  GroupName="Q9" OnCheckedChanged="RadioButton36_CheckedChanged"/>
              
                          
                 </div>
                 </div>
 
-            <%-- question 10--%>
+          <%-- question 10--%>
            <div class="question-box">
                 <div class="question-text-style">
                 <asp:Label ID="Label21" runat="server" Text="Label">Question 10</asp:Label>
@@ -214,17 +220,17 @@
                      <asp:Label ID="Label22" runat="server" Text="Label">Question</asp:Label>
                     </div>
                   <div class="button-style">
-                    <asp:Button ID="Button37" runat="server" Text="Poor" />
-                      <asp:Button ID="Button38" runat="server" Text="Good" />
-                      <asp:Button ID="Button39" runat="server" Text="Very Good" />
-                      <asp:Button ID="Button40" runat="server" Text="Excellent" />
+                    <asp:RadioButton ID="RadioButton37" runat="server" Text="Poor" GroupName="Q10" OnCheckedChanged="RadioButton37_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton38" runat="server" Text="Good" GroupName="Q10" OnCheckedChanged="RadioButton38_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton39" runat="server" Text="Very Good"  GroupName="Q10" OnCheckedChanged="RadioButton39_CheckedChanged" />
+                      <asp:RadioButton ID="RadioButton40" runat="server" Text="Excellent"  GroupName="Q10" OnCheckedChanged="RadioButton40_CheckedChanged"/>
              
                          
                 </div>
                 </div>
                  
-            <asp:Button ID="Button41" runat="server" Text="Submit" class="submit-button" />
-                 
+            <asp:Button ID="Button41" runat="server" Text="Submit" class="submit-button" OnClick="Button41_Click" />
+                
             </form>          
            </div> 
   
@@ -240,4 +246,4 @@
            </div>
        </div>
 </body>
-</html>
+</html>--%>

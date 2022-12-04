@@ -60,40 +60,40 @@ namespace C_sharp_project
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// Button1 control.
+        /// RadioButton1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton1;
 
         /// <summary>
-        /// Button2 control.
+        /// RadioButton2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton2;
 
         /// <summary>
-        /// Button3 control.
+        /// RadioButton3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton3;
 
         /// <summary>
-        /// Button4 control.
+        /// RadioButton4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button4;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton4;
 
         /// <summary>
         /// Label5 control.
@@ -114,40 +114,40 @@ namespace C_sharp_project
         protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// Button5 control.
+        /// RadioButton5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button5;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton5;
 
         /// <summary>
-        /// Button6 control.
+        /// RadioButton6 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button6;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton6;
 
         /// <summary>
-        /// Button7 control.
+        /// RadioButton7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button7;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton7;
 
         /// <summary>
-        /// Button8 control.
+        /// RadioButton8 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button8;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton8;
 
         /// <summary>
         /// Label7 control.
@@ -168,40 +168,40 @@ namespace C_sharp_project
         protected global::System.Web.UI.WebControls.Label Label8;
 
         /// <summary>
-        /// Button9 control.
+        /// RadioButton9 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button9;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton9;
 
         /// <summary>
-        /// Button10 control.
+        /// RadioButton10 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button10;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton10;
 
         /// <summary>
-        /// Button11 control.
+        /// RadioButton11 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button11;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton11;
 
         /// <summary>
-        /// Button12 control.
+        /// RadioButton12 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button12;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton12;
 
         /// <summary>
         /// Label9 control.
@@ -222,40 +222,40 @@ namespace C_sharp_project
         protected global::System.Web.UI.WebControls.Label Label10;
 
         /// <summary>
-        /// Button13 control.
+        /// RadioButton13 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button13;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton13;
 
         /// <summary>
-        /// Button14 control.
+        /// RadioButton14 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button14;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton14;
 
         /// <summary>
-        /// Button15 control.
+        /// RadioButton15 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button15;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton15;
 
         /// <summary>
-        /// Button16 control.
+        /// RadioButton16 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button16;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton16;
 
         /// <summary>
         /// Label11 control.
@@ -276,40 +276,40 @@ namespace C_sharp_project
         protected global::System.Web.UI.WebControls.Label Label12;
 
         /// <summary>
-        /// Button17 control.
+        /// RadioButton17 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button17;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton17;
 
         /// <summary>
-        /// Button18 control.
+        /// RadioButton18 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button18;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton18;
 
         /// <summary>
-        /// Button19 control.
+        /// RadioButton19 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button19;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton19;
 
         /// <summary>
-        /// Button20 control.
+        /// RadioButton20 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button20;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton20;
 
         /// <summary>
         /// Label13 control.
@@ -330,40 +330,40 @@ namespace C_sharp_project
         protected global::System.Web.UI.WebControls.Label Label14;
 
         /// <summary>
-        /// Button21 control.
+        /// RadioButton21 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button21;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton21;
 
         /// <summary>
-        /// Button22 control.
+        /// RadioButton22 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button22;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton22;
 
         /// <summary>
-        /// Button23 control.
+        /// RadioButton23 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button23;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton23;
 
         /// <summary>
-        /// Button24 control.
+        /// RadioButton24 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button24;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton24;
 
         /// <summary>
         /// Label15 control.
@@ -384,40 +384,40 @@ namespace C_sharp_project
         protected global::System.Web.UI.WebControls.Label Label16;
 
         /// <summary>
-        /// Button25 control.
+        /// RadioButton25 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button25;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton25;
 
         /// <summary>
-        /// Button26 control.
+        /// RadioButton26 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button26;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton26;
 
         /// <summary>
-        /// Button27 control.
+        /// RadioButton27 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button27;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton27;
 
         /// <summary>
-        /// Button28 control.
+        /// RadioButton28 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button28;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton28;
 
         /// <summary>
         /// Label17 control.
@@ -438,40 +438,40 @@ namespace C_sharp_project
         protected global::System.Web.UI.WebControls.Label Label18;
 
         /// <summary>
-        /// Button29 control.
+        /// RadioButton29 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button29;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton29;
 
         /// <summary>
-        /// Button30 control.
+        /// RadioButton30 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button30;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton30;
 
         /// <summary>
-        /// Button31 control.
+        /// RadioButton31 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button31;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton31;
 
         /// <summary>
-        /// Button32 control.
+        /// RadioButton32 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button32;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton32;
 
         /// <summary>
         /// Label19 control.
@@ -492,40 +492,40 @@ namespace C_sharp_project
         protected global::System.Web.UI.WebControls.Label Label20;
 
         /// <summary>
-        /// Button33 control.
+        /// RadioButton33 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button33;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton33;
 
         /// <summary>
-        /// Button34 control.
+        /// RadioButton34 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button34;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton34;
 
         /// <summary>
-        /// Button35 control.
+        /// RadioButton35 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button35;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton35;
 
         /// <summary>
-        /// Button36 control.
+        /// RadioButton36 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button36;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton36;
 
         /// <summary>
         /// Label21 control.
@@ -546,40 +546,40 @@ namespace C_sharp_project
         protected global::System.Web.UI.WebControls.Label Label22;
 
         /// <summary>
-        /// Button37 control.
+        /// RadioButton37 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button37;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton37;
 
         /// <summary>
-        /// Button38 control.
+        /// RadioButton38 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button38;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton38;
 
         /// <summary>
-        /// Button39 control.
+        /// RadioButton39 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button39;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton39;
 
         /// <summary>
-        /// Button40 control.
+        /// RadioButton40 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button40;
+        protected global::System.Web.UI.WebControls.RadioButton RadioButton40;
 
         /// <summary>
         /// Button41 control.
