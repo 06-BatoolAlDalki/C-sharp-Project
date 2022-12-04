@@ -27,9 +27,22 @@
         <div>
         </div>
     </form>
+    <div class="home-box">
+        <div class="project-name"> <span>Gateway <span style="color: #126266">Information</span> </span> </div>
+        <img  src="home-images\Forms-bro.png" width="40%" height="200px"/>
+        <div class="about-us">
+            <div class="breif-statement"> Brief about survey<br /></div>
+            <div class="breif-paragraph"> <span>Here at Pegasus We always hold our employees to a higher standard.
+and as such to improve your experience in the Pegasus workplace, we request that you complete this short survey.
 
+Your Opinion Matters!.
+                                          </span></div>   
+            
+            
+        </div>
+    </div>
 
-   
+   <br />
        <div class="footer">
            <div style="display:inline-block;"> <img src="home-images\logo1.PNG"  width="15%" height="" style=" position:relative; left :10px ; "/></div>
            <div style="float:right; font-size:30px; margin-left:5px; margin-right:33px;" ><i class="fa-brands fa-facebook fontawsome"></i>
