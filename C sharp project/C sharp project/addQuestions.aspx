@@ -61,12 +61,25 @@
                     
                 </tr>
                  <tr></tr> <tr></tr> <tr></tr> <tr></tr>
-                <tr>
+              <tr>
                     <td>Question8</td>
-     Question10</td>
-                    <td><asp:TextBox ID="TextBox10" CssClass="TextBox" runat="server"></asp:TextBox></td>
+                    <td><asp:TextBox ID="TextBoxes8" CssClass="TextBox" runat="server"></asp:TextBox></td>
                     
                 </tr>
+                 <tr></tr> <tr></tr> <tr></tr> <tr></tr>
+              <tr>
+                    <td>Question9</td>
+                    <td><asp:TextBox ID="TextBoxes9" CssClass="TextBox" runat="server"></asp:TextBox></td>
+                    
+                </tr>
+                 <tr></tr> <tr></tr> <tr></tr> <tr></tr>
+              <tr>
+                    <td>Question10</td>
+                    <td><asp:TextBox ID="TextBoxes10"  CssClass="TextBox" runat="server"></asp:TextBox></td>
+                    
+                </tr>
+                 <tr></tr> <tr></tr> <tr></tr> <tr></tr>
+           
                </table>
                  <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click1" />
                 <asp:Button ID="Button2" runat="server" Text="Add" OnClick="Button2_Click" />
